@@ -3,7 +3,7 @@ const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require('@googl
 // const dotenv = require('dotenv').config()
 
 const app = express();
-const port = 5000;
+const port = 3000;
 app.use(express.json());
 const MODEL_NAME = "gemini-1.5-flash";
 // const API_KEY = process.env.API_KEY;
