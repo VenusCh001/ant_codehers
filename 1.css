@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: hsl(191, 57%, 54%);
+    background: hsl(191, 88%, 65%);
     position: relative;
     height: 30px;
 
@@ -40,10 +40,11 @@ header {
 
 
 .logo-part-2 {
-    color: #dfd7e9; /* Solid color instead of gradient */
     padding: 5px 10px;
-    border: 2px solid #2d58f4; /* Blue border */
+    border: 2px solid #761ba3; /* Blue border */
     border-radius: 8px;
+    font-weight: bolder;
+    color: #761ba3;
 }
 
 
