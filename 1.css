@@ -28,10 +28,30 @@ header {
 
     
 }
-
+/* Styling the logo */
 .logo {
+    font-size: 2em;
     font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
+
+.logo-part-1 {
+    color: #FF416C; /* Solid color instead of gradient */
+    padding: 5px 10px;
+    border: 2px solid #FF4B2B; /* Orange border */
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.logo-part-2 {
+    color: #00F260; /* Solid color instead of gradient */
+    padding: 5px 10px;
+    border: 2px solid #0575E6; /* Blue border */
+    border-radius: 8px;
+}
+
 
 .nav-links {
     list-style: none;
@@ -98,3 +118,27 @@ header {
     height: auto;
 }
 
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo-part-1 {
+    background: linear-gradient(45deg, #00C6FF, #0072FF); /* Blue gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-part-2 {
+    background: linear-gradient(45deg, #f85032, #e73827); /* Red gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
