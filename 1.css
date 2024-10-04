@@ -37,18 +37,12 @@ header {
     align-items: center;
 }
 
-.logo-part-1 {
-    color: #FF416C; /* Solid color instead of gradient */
-    padding: 5px 10px;
-    border: 2px solid #FF4B2B; /* Orange border */
-    border-radius: 8px;
-    margin-right: 5px;
-}
+
 
 .logo-part-2 {
-    color: #00F260; /* Solid color instead of gradient */
+    color: #dfd7e9; /* Solid color instead of gradient */
     padding: 5px 10px;
-    border: 2px solid #0575E6; /* Blue border */
+    border: 2px solid #2d58f4; /* Blue border */
     border-radius: 8px;
 }
 
