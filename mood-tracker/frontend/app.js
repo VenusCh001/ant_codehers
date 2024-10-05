@@ -8,7 +8,7 @@ moodForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const mood = moodSelect.value;
 
-    const response = await fetch('http://localhost:5000/api/moods/log', {
+    const response = await fetch('http://localhost:5001/api/moods/log', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ mood }),
@@ -22,7 +22,7 @@ moodForm.addEventListener('submit', async (e) => {
 
 // Function to fetch mood history and render chart
 async function fetchMoodHistory() {
-    const response = await fetch('http://localhost:5000/api/moods/history');
+    const response = await fetch('http://localhost:5001/api/moods/history');
     const moods = await response.json();
     
     const moodCounts = moods.reduce((counts, mood) => {

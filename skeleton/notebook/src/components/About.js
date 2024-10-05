@@ -15,10 +15,10 @@ export default function About() {
         <div className="card">
           <img src="https://cdn.pixabay.com/photo/2023/02/04/17/28/chat-7767693_1280.jpg" alt="Image 1" className="img-responsive"/>
             <div className="card-content">
-              <h3>This is some title</h3>
+              <h3>Immersive</h3>
               <p>Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
                 bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.</p>
-              <a href="#">Read more</a>
+              <a href="#">Read More</a>
             </div>
         </div>
         <div className="card">

@@ -278,12 +278,16 @@ function formatResponse(text) {
     .replace(/\n/g, '<br>');  // Replace newlines with <br> for line breaks
   return formattedText;
 }
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 app.get('/loader.gif', (req, res) => {
   res.sendFile(__dirname + '/loader.gif');
 });
+
+
+
 app.post('/chat', async (req, res) => {
   try {
     const userInput = req.body?.userInput;
