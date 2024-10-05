@@ -84,9 +84,11 @@ section {
     max-width: 50%;
 }
 
+front.css
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    margin-left:20px;
 }
 
 .hero-content p {

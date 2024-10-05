@@ -135,7 +135,7 @@ section {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 70px;
+    gap: 40px;
 }
 .nav-links li a {
     text-decoration: none;
