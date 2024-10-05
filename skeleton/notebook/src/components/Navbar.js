@@ -7,6 +7,10 @@ export default function Navbar() {
         localStorage.removeItem('token')
         navigate("/frontpage")
     }
+    const handleImmersiveClick = () => {
+        window.location.href = "../immersive/index.html";
+    };
+
     return (
 
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -31,24 +35,6 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`} to="/contact">Contact</Link>
-                        </li>
-                        <li className="nav-item">
-    <a 
-        className={`nav-link ${location.pathname === "/mood-tracker/frontend/index.html" ? "active" : ""}`} 
-        href="/mood-tracker/frontend/index.html">
-        Mood Tracker
-    </a>
-</li>
-
-
-
-
-
-                        <li className="nav-item">
-                            <Link className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`} to="/contact">immersive</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`} to="/contact">meditation room</Link>
                         </li>
 
 
